@@ -1,6 +1,12 @@
 # UnityMoil
 
+Using of MOIL dll in a Unity Project. The virtual camera rotation is controlled by the VR/MR headset. 
 
+Views in Unity
+<img src="images/s001.png" width="500px">
+
+The source fisheye image: 
+<img src="images/Lab.jpg" width="500px">
 
 
 1. Create a new Unity Project
@@ -9,15 +15,15 @@
 
 3. Copy the following files to  Assets\ folder under Unity Project 
 
-    MoilDll.dll
+    - MoilDll.dll
 
-    MoilDll.pdb
+    - MoilDll.pdb
 
-    Emgu.CV.World.dll
+    - Emgu.CV.World.dll
 
-    show_cam.cs
+    - show_cam.cs
    
-    cvextern.dll
+    - cvextern.dll
  
 4. Add some components as the following, adjust size and positions.
  
