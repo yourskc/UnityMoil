@@ -5,53 +5,55 @@
 
 1. Create a new Unity Project
 
-2. Put Lab.jpg under Project 
+2. Put Lab.jpg under your Unity Project 
 
-3. Copy the following files to  Assets\ folder
+3. Copy the following files to  Assets\ folder under Unity Project 
 
-MoilDll.dll
+    MoilDll.dll
 
-MoilDll.pdb
+    MoilDll.pdb
 
-Emgu.CV.World.dll
+    Emgu.CV.World.dll
 
-show_cam.cs
+    show_cam.cs
    
-cvextern.dll
+    cvextern.dll
  
 4. Add some components as the following, adjust size and positions.
  
-GameObject/ UI/ canvas
+    1. GameObject/ UI/ canvas
 
-GameObject/ UI/ Panel (Disable)
+    2. GameObject/ UI/ Panel (Disable)
 
-GameObject/ UI/ Image
+    3. GameObject/ UI/ Image
 
-PosX=240, PosY=-145
+        Set properties, 
 
-Width=200, Height=160
+        PosX=240, PosY=-145
 
-ScaleX=3, ScaleY=3
+        Width=200, Height=160
 
-GameObject/ UI/ Text(TMP)
+        ScaleX=3, ScaleY=3
 
-PosX= -150, PosY=-200
+    4. GameObject/ UI/ Text(TMP)
 
-Width=500, Height= 30
+        Set some properties, 
 
-Text=MOIL
+        PosX= -150, PosY=-200
 
-Font Size=24
+        Width=500, Height= 30
 
-Color = Red
+        Text=MOIL
 
-5. Select Main Camera, Component/ Scripts/ Select Show_cam 
+        Font Size=24
 
-6. Drag previous Image and Text to it's properities  
+        Color = Red
 
-7. Press Play button, Hold Mouse right button and try to control 
+    5. Select Main Camera, Component/ Scripts/ Select Show_cam 
 
-the view angle of the small window.    
+    6. Drag previous Image and Text to it's properities  
+
+    7. Press Play button, Hold Mouse right button and move the mouse to control the view angle of the small window.    
 
 
 
