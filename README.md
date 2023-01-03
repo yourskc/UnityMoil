@@ -49,11 +49,11 @@
 
         Color = Red
 
-    5. Select Main Camera, Component/ Scripts/ Select Show_cam 
+5. Select Main Camera, Component/ Scripts/ Select Show_cam 
 
-    6. Drag previous Image and Text to it's properities  
+6. Drag previous Image and Text to it's properities  
 
-    7. Press Play button, Hold Mouse right button and move the mouse to control the view angle of the small window.    
+7. Press Play button, Hold Mouse right button and move the mouse to control the view angle of the small window.    
 
 
 
