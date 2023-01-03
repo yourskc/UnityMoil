@@ -9,7 +9,7 @@ The source fisheye image:
 <img src="images/Lab.jpg" width="500px">
 
 
-1. Create a new Unity Project
+1. Create a new Unity 3D Project
 
 2. Put Lab.jpg under your Unity Project 
 
@@ -25,7 +25,7 @@ The source fisheye image:
    
     - cvextern.dll
  
-4. Add some components as the following, adjust size and positions.
+4. Add the following components, adjust size and positions.
  
     1. GameObject/ UI/ canvas
 
@@ -57,7 +57,7 @@ The source fisheye image:
 
 5. Select Main Camera, Component/ Scripts/ Select Show_cam 
 
-6. Drag previous Image and Text to it's properities  
+6. Drag the Image and Text previously created to the properities in Show_cam  
 
 7. Press Play button, Hold Mouse right button and move the mouse to control the view angle of the small window.    
 
