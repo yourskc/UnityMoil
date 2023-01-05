@@ -63,7 +63,9 @@ The source fisheye image:
 
 8. Press Play button, Hold Mouse right button and move the mouse to control the view angle of the small window.    
 
+The final result look likes it,
 
+[![Demo](https://img.youtube.com/vi/X1ku4GlU1cU/0.jpg)](https://www.youtube.com/watch?v=X1ku4GlU1cU)
 
 
 
