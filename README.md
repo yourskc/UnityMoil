@@ -59,7 +59,9 @@ The source fisheye image:
 
 6. Drag the Image and Text previously created to the properities in Show_cam  
 
-7. Press Play button, Hold Mouse right button and move the mouse to control the view angle of the small window.    
+7. Add Component/ Scripts/ Select SimpleCameraController to Main Camera 
+
+8. Press Play button, Hold Mouse right button and move the mouse to control the view angle of the small window.    
 
 
 
