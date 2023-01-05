@@ -5,7 +5,7 @@ using MoilDll;
 using TMPro;
 public class show_cam : MonoBehaviour {
     public UnityEngine.UI.Image Rot_Image;
-    public Text Rot_Text;
+    // public Text Rot_Text;
     public TextMeshProUGUI Tmp_Text;
     Texture2D tex;
     byte[] ByteArray;
@@ -21,7 +21,7 @@ public class show_cam : MonoBehaviour {
         if (x == 360) x = 0;
         float y = transform.eulerAngles.y;
         float z = transform.eulerAngles.z;
-        Rot_Text.text = x.ToString("F3") + "    " + y.ToString("F3") + "    " + z.ToString("F3");
+        // Rot_Text.text = x.ToString("F3") + "    " + y.ToString("F3") + "    " + z.ToString("F3");
         Tmp_Text.text = x.ToString("F3") + "    " + y.ToString("F3") + "    " + z.ToString("F3");
 
         // 轉換
@@ -55,7 +55,7 @@ public class show_cam : MonoBehaviour {
         if (x == 360) x = 0;
         float y = transform.eulerAngles.y;
         float z = transform.eulerAngles.z;
-        Rot_Text.text = x.ToString("F3") + "    " + y.ToString("F3") + "    " + z.ToString("F3");
+        // Rot_Text.text = x.ToString("F3") + "    " + y.ToString("F3") + "    " + z.ToString("F3");
         Tmp_Text.text = x.ToString("F3") + "    " + y.ToString("F3") + "    " + z.ToString("F3");
 
         // 轉換

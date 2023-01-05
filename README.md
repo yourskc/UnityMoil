@@ -25,9 +25,9 @@ The source fisheye image:
    
     - cvextern.dll
  
-4. Add the following components, adjust size and positions.
+4. Add the following GameObjects, adjust size and positions.
  
-    1. GameObject/ UI/ canvas
+    1. GameObject/ UI/ Canvas
 
     2. GameObject/ UI/ Panel (Disable)
 
@@ -41,9 +41,9 @@ The source fisheye image:
 
         ScaleX=3, ScaleY=3
 
-    4. GameObject/ UI/ Text(TMP)
+    4. GameObject/ UI/ Text-TextMeshPro
 
-        Set some properties, 
+        Set properties, 
 
         PosX= -150, PosY=-200
 
@@ -55,7 +55,7 @@ The source fisheye image:
 
         Color = Red
 
-5. Select Main Camera, Component/ Scripts/ Select Show_cam 
+5. Select Main Camera, Add Component/ Scripts/ Select Show_cam 
 
 6. Drag the Image and Text previously created to the properities in Show_cam  
 
